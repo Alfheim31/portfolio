@@ -1,0 +1,22 @@
+@import "tailwindcss";
+
+:root {
+  --bg-color: #0a0a0a;
+  --accent-color: #3b82f6;
+}
+
+body {
+  @apply bg-neutral-950 text-white selection:bg-blue-500 selection:text-white;
+  background-image: 
+    radial-gradient(circle at 50% -20%, #3b82f633, transparent),
+    radial-gradient(circle at 0% 100%, #1d4ed822, transparent);
+  background-attachment: fixed;
+}
+
+/* Custom scrollbar to match the dark theme */
+::-webkit-scrollbar {
+  width: 5px;
+}
+::-webkit-scrollbar-thumb {
+  @apply bg-neutral-800 rounded-full;
+}
