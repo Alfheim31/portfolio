@@ -122,7 +122,7 @@ export default function Projects() {
 const PROJECTS = [
   { id: 1, title: "Palmingo", tag: "Machine Learning / React", longDescription: "A sign language recognition system interpreting gestures in real-time.", tech: ["Python", "TensorFlow.js", "React", "MediaPipe", "Vite", "Tailwind CSS"] },
   { id: 2, title: "Soluna", tag: "Compiler Design", longDescription: "A custom programming language with celestial keywords (sol, soluna, luna), derived from Lua.", tech: ["Python", "React", "JavaScript", "Vite", "Tailwind CSS"] },
-  { id: 3, title: "Matthew& Melka Inventory", tag: "Inventory System", longDescription: "Web-based inventory management for fashion companies Matthew&Melka and Ken Samudio.", tech: ["React", "JavaScript", "PostgreSQL", "Tailwind CSS"] },
+  { id: 3, title: "Matthew & Melka Inventory", tag: "Inventory System", longDescription: "Web-based inventory management for fashion companies Matthew&Melka and Ken Samudio.", tech: ["React", "JavaScript", "PostgreSQL", "Tailwind CSS"] },
   { id: 4, title: "Graph Knight", tag: "Freelance Project", longDescription: "A freelance platform, creating distinct, intuitive workflows for both independent artists and potential employers.", tech: ["Figma"] },
   { id: 5, title: "Contain", tag: "Hackathon Project", longDescription: "A high-performance mobile application using modern frameworks, tailored to help businesses manage and monitor plastic waste collection logistics.", tech: ["React", "JavaScript", "HTML5", "CSS", "Google Maps API"] }
 ];

@@ -45,7 +45,7 @@ function App() {
             <div className="fixed inset-0 pointer-events-none opacity-[0.03] z-[9999] bg-[url('https://grainy-gradients.vercel.app/noise.svg')]" />
             
             <nav className="fixed top-0 z-50 w-full p-10 flex justify-between items-center mix-blend-difference">
-              <div className="font-bold tracking-tighter text-lg text-white">MIRANDA.</div>
+              <div className="font-bold tracking-tighter text-lg text-white">Amiere Miranda</div>
               <ul className="flex gap-10 text-[10px] tracking-[0.2em] uppercase font-bold text-neutral-400">
                 <li className="hover:text-white transition-colors cursor-none">Work</li>
                 <li className="hover:text-white transition-colors cursor-none">About</li>
