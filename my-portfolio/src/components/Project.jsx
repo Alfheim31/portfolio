@@ -105,9 +105,9 @@ export default function Projects() {
 }
 
 const PROJECTS = [
-  { id: 1, title: "Visuhand AI", tag: "Machine Learning / React", longDescription: "Developed at PLM to interpret ASL gestures in real-time using computer vision.", tech: ["TensorFlow.js", "React", "MediaPipe"] },
-  { id: 2, title: "Soluna", tag: "Compiler Design", longDescription: "A custom programming language with celestial syntax logic: sol, soluna, and luna.", tech: ["C++", "LLVM", "Flex/Bison"] },
-  { id: 3, title: "InnOlympics 2026", tag: "Event Management", longDescription: "University-wide hackathon organized for over 200 student innovators at PLM.", tech: ["Leadership", "Branding", "Planning"] },
+  { id: 1, title: "Palmingo", tag: "Machine Learning / React", longDescription: "An application developed utilizing Dola AI to interpret ASL gestures in real-time from an audio or text.", tech: ["Python", "Dola AI", "TensorFlow.js", "React", "MediaPipe"] },
+  { id: 2, title: "Soluna", tag: "Compiler Design", longDescription: "A custom programming language with celestial-themed syntax logic such as sol, soluna, luna, and etc.", tech: ["Python", "React", "JavaScript", "Websockets", "TypeScript", "Gemini API"] },
+  { id: 3, title: "Matthew& Melka Inventory System", tag: "Inventory System", longDescription: "Designed and developed a web-based inventory management for two known fashion companies: Matthew&Melka and Ken Samudio.", tech: ["React", "JavaScript", "PostgreSQL", "Websockets", "HTML5", "CSS"] },
   { id: 4, title: "Dubai Cookies", tag: "Entrepreneurship", longDescription: "Food-tech boutique venture specializing in pistachio-filled chewy cookies.", tech: ["Inventory", "R&D", "Marketing"] },
   { id: 5, title: "RSG Seminar", tag: "Career Development", longDescription: "A career series helping tech students bridge the gap to professional roles.", tech: ["Public Speaking", "Strategy", "Management"] }
 ];
