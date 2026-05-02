@@ -59,7 +59,7 @@ function App() {
             
             {/* Navigation Bar */}
             <nav className="fixed top-0 z-50 w-full p-10 flex justify-between items-center mix-blend-difference">
-              <div className="font-bold tracking-tighter text-lg text-white uppercase">Miranda.</div>
+              <div className="font-bold tracking-tighter text-lg text-white uppercase">Amiere Miranda</div>
               <ul className="flex gap-10 text-[10px] tracking-[0.2em] uppercase font-bold text-neutral-400">
                 <li onClick={() => scrollTo('about')} className="hover:text-white transition-colors cursor-none pointer-events-auto">
                   About
@@ -94,7 +94,7 @@ function App() {
               {/* Transition Statement */}
               <section className="h-screen flex items-center px-12 md:px-32">
                 <h2 className="text-5xl md:text-7xl max-w-5xl font-medium tracking-tighter leading-[1.1]">
-                   Developing solutions like <span className="text-neutral-500 italic">Visuhand AI.</span>
+                   Translating complex logic into distinct visual identities that ensure your work is recognized with  <span className="text-neutral-500 italic">clarity and professional impact.</span>
                 </h2>
               </section>
 

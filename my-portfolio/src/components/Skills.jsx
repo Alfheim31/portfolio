@@ -24,12 +24,12 @@ export default function Skills() {
       <motion.div
         initial={{ opacity: 0, filter: "blur(20px)", y: 20 }}
         whileInView={{ opacity: 1, filter: "blur(0px)", y: 0 }}
-        transition={{ duration: 1.5, ease: "easeOut" }}
-        viewport={{ once: true }}
+        transition={{ duration: 1.2, ease: "easeOut" }}
+        // REMOVED once: true to allow repeating animation
+        viewport={{ amount: 0.3 }} 
       >
         <h2 className="text-5xl md:text-7xl font-bold tracking-tighter uppercase mb-12">Skills</h2>
         
-        {/* Toggle Buttons */}
         <div className="flex gap-8 mb-16">
           {['technical', 'soft'].map((type) => (
             <button
@@ -44,7 +44,6 @@ export default function Skills() {
           ))}
         </div>
 
-        {/* The Table */}
         <div className="border-t border-neutral-800">
           <AnimatePresence mode="wait">
             <motion.div
@@ -52,7 +51,7 @@ export default function Skills() {
               initial={{ opacity: 0, filter: "blur(10px)" }}
               animate={{ opacity: 1, filter: "blur(0px)" }}
               exit={{ opacity: 0, filter: "blur(10px)" }}
-              transition={{ duration: 0.8 }}
+              transition={{ duration: 0.6 }}
             >
               {SKILLS_DATA[category].map((skill, index) => (
                 <div key={index} className="grid grid-cols-2 py-8 border-b border-neutral-800 hover:bg-white/[0.02] transition-colors group">
