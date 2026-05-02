@@ -56,7 +56,7 @@ export default function Hero() {
         >
           <span className="text-blue-500 font-mono text-[10px] uppercase tracking-[0.4em] block mb-2">Expertise</span>
           <span className="text-[11px] uppercase font-bold text-neutral-400 leading-tight block">
-            Frontend Dev & <br /> GDGoC-PLM Lead
+            Frontend Dev & <br /> GDGoC-PLM CCO
           </span>
         </motion.div>
 

@@ -3,16 +3,16 @@ import { motion, AnimatePresence } from 'framer-motion';
 
 const SKILLS_DATA = {
   technical: [
-    { name: "Frontend", detail: "React, Tailwind CSS, JavaScript" },
-    { name: "Backend/DB", detail: "PostgreSQL, Node.js" },
-    { name: "Languages", detail: "C++, Python, TypeScript" },
-    { name: "Specialized", detail: "Compiler Design, ML (TensorFlow.js)" }
+    { name: "Web Development", detail: "HTML5, CSS, Node.js, React, Flutter" },
+    { name: "Machine Learning/DBMS", detail: "TensorFlow, Scikit-learn, Numpy, Pandas, Matplotlib, Jupyter, MySQL, PostgreSQL, Node.js" },
+    { name: "Programming Languages", detail: "Java, Python, SQL, C, C++, C#, JavaScript" },
+    { name: "Collaboration", detail: "Notion, Discord, Google Workspace" }
   ],
   soft: [
-    { name: "Leadership", detail: "GDGoC Lead & CTO Experience" },
-    { name: "Management", detail: "Project & Event Logistics (InnOlympics)" },
-    { name: "Creative", detail: "UI/UX Design, Branding" },
-    { name: "Entrepreneurship", detail: "Venture Management & Scaling" }
+    { name: "Leadership", detail: "Communication, Problem-Solving, Critical & Analytical Thinking " },
+    { name: "Management", detail: "Project Management, Time Management, Business Analyst" },
+    { name: "Creative", detail: "UI/UX Design, Branding, Graphics" },
+    { name: "Others", detail: "Entrepreneurship, Writing, Flexibility" }
   ]
 };
 

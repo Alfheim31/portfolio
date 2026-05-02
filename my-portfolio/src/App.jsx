@@ -146,7 +146,7 @@ function App() {
                 transition={{ type: "spring", stiffness: 300, damping: 30 }}
               >
                 <p className="text-neutral-500 uppercase tracking-[0.3em] text-[10px] mb-6">
-                  Have an idea?
+                  Have an idea? Click here.
                 </p>
                 <h2 
                   onClick={() => setShowSocials(!showSocials)}
