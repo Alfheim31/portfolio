@@ -73,7 +73,7 @@ function App() {
               
               <ul className="flex gap-10 text-[10px] tracking-[0.2em] uppercase font-bold text-neutral-400">
                 {[
-                  { name: 'About', id: 'about' },
+                  { name: 'Home', id: 'about' },
                   { name: 'Skills', id: 'skills' },
                   { name: 'Experience', id: 'experience' },
                   { name: 'Projects', id: 'projects' }
